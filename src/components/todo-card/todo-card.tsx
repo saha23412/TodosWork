@@ -1,5 +1,5 @@
 import React from 'react'
-import { TodoCardProps } from '../../models/interface/todo-card'
+import { ITodoCardProps } from '../../models/interface/todo-card'
 import { Box, Alert } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import GradingIcon from '@mui/icons-material/Grading';
@@ -7,7 +7,7 @@ import ClearIcon from '@mui/icons-material/Clear';
 import MotionLayout from '../motion-layout/motion-layout';
 import './todo-card.css'
 
-const TodoCard: React.FC<TodoCardProps> = ({ todo, completeIdTodo, removeIdTodo }) => {
+const TodoCard: React.FC<ITodoCardProps> = ({ todo, completeIdTodo, removeIdTodo }) => {
     return (
         <MotionLayout key={todo.id}>
             <Box className='TodoCard-wrapper'>
