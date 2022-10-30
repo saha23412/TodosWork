@@ -1,0 +1,53 @@
+.TodosList {
+    margin-top: 20px;
+}
+
+.TodosList-wrapper {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.TodosList-wrapper .TodosList-wrapper-title {
+    
+    border-bottom: 0.5px solid rgb(18, 18, 18);
+    text-align: start;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.fulfilled {
+    color: rgb(40, 144, 51);
+
+}
+
+.all {
+    color: rgb(18, 18, 18)
+}
+
+.not-fulfilled {
+    color: rgb(150, 0, 24)
+}
+
+.TodoList-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TodoList-search button {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+#outlined-basic {
+    width: 380px;
+    font-size: 18px;
+
+}
+
+.TodoList-search-button {
+    margin: 20px;
+}

@@ -1,0 +1,9 @@
+.TodoList-wrapper {
+    width: 350px;
+}
+
+.TodoList-wrapper .TodoList-wrapper-clarification {
+    margin-top: 20px;
+    text-align: start;
+    padding: 5px;
+}

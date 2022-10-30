@@ -1,0 +1,12 @@
+.TitleAppBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TitleAppBar-wrapper{
+    display: flex;
+    align-items:center;
+}
+.TitleAppBar-wrapper-icon{
+    margin-left: 10px;
+}
